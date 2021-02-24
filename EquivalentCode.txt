@@ -1,0 +1,18 @@
+int x = 0;
+
+while(x < 10) {
+    printf("Number Printed: %d %d\n", 4000 + 1042);
+
+    x += 1;
+}
+
+if (x < 10) {
+    foo();
+} else {
+    bar();
+}
+
+
+void foo() {
+
+}
