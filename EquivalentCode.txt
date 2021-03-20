@@ -16,3 +16,12 @@ if (x < 10) {
 void foo() {
 
 }
+
+
+void main(int count) {
+    for(int x = 0; x < count; ++x) { ... }
+    if (0 < count) {
+        main(count -1);
+    }
+    return 42
+}
