@@ -30,7 +30,7 @@ namespace bytecodeinterpreter {
         }
         registers.stack.insert(registers.stack.end(), arguments.begin(), arguments.end());
 
-        registers.stack.push_back(0);
+        registers.stack.push_back(0); // push old baseIndex.
         registers.returnAddressStack.push_back(nullptr);
         registers.baseIndex = registers.stack.size();
 
